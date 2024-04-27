@@ -1,0 +1,19 @@
+.loginForm_container{
+    height: 100%;
+    width: 100%;
+}
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.loginForm_buttons{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
