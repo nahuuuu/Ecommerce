@@ -1,0 +1,49 @@
+.input{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    
+}
+.input label{
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+.input input:-webkit-autofill,
+.input input:-webkit-autofill:hover,
+.input input:-webkit-autofill:focus,
+.input input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #333 !important;
+}
+.input input{
+    background: linear-gradient(to top, #5f927a , transparent );
+    border: none;
+    border-radius: 5px;
+    color: #112d32;
+    padding: 5px;
+    padding-left: 8px;
+    transition: 1s;
+    font-size: 15px;
+    height: 25px;
+}
+.input input:focus{
+    background-color: #7cbe9f;
+    transition: 1s;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.input input:hover{
+    background-color: #7cbe9f;
+    transition: 1s;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.error{
+    position: absolute;
+    margin-top: 50px;
+}
