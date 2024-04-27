@@ -1,4 +1,4 @@
-package com.ecommerce.controller;
+package com.ecommerce.controller.test;
 
 
 import com.ecommerce.entity.UserEntity;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 
 @Controller
-public class TestBaseDeDatos {
+public class RegisterControllerTest {
 
     @Autowired
     private UserRepository userRepository;
