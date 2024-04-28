@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import "../stylesheets/login.css"
+import "../../stylesheets/login.css"
 import LoginForm from "./LoginForm"
 const Login = memo(() => {
   return (

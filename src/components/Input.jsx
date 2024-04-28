@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import "../stylesheets/loginInput.css"
 
-const LoginInput = ({type, text, name}) => {
+const Input = ({type, text, name}) => {
   const [error, setError] = useState('');
   const inputRef = useRef();
 
@@ -48,4 +48,4 @@ const LoginInput = ({type, text, name}) => {
   );
 };
 
-export default LoginInput;
+export default Input;

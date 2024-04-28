@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import "../stylesheets/register.css"
+import "../../stylesheets/register.css"
 import RegisterForm from "./RegisterForm"
 const Login = memo(() => {
   return (
