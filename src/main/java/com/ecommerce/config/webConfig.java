@@ -23,6 +23,9 @@ public class webConfig {
                     authConfig.requestMatchers(HttpMethod.POST, "/post").permitAll();
                     authConfig.requestMatchers(HttpMethod.GET, "/get").permitAll();
                     authConfig.requestMatchers(HttpMethod.GET, "/a").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "/test-r-p").permitAll();
+                    authConfig.requestMatchers(HttpMethod.GET, "/p-get").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "/crear-usuario").permitAll();
                 });
 
          return http.build();
