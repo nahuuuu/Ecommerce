@@ -1,5 +1,6 @@
 package com.ecommerce.service.Test;
 
+import com.ecommerce.dto.UserDto;
 import com.ecommerce.entity.PermissionEntity;
 import com.ecommerce.entity.RoleEntity;
 import com.ecommerce.entity.UserEntity;
@@ -64,5 +65,22 @@ public class MapeoEntidadesTest {
         user.getRole().add(role);
         userRepository.save(user);
 
+    }
+
+    //Promover / cambiar rol a un usuario
+
+    public String cambiarRol(String username){
+
+        UserEntity user = userRepository.findByUsername(username).orElseThrow(
+                () -> new RuntimeException("User Not Found"));
+
+        user.getRole().add(roleRepository.findByrole(Role.SUPERUSER));
+
+        userRepository.save(user);
+
+        //Creacion del dto
+        UserDto dto = new UserDto(user.getId(), user.getUsername(), user.getEmail(),
+                user.getPassword(), user.getRole());
+        return "Rol cambiado a " + dto.getRoles() + " exitosamente";
     }
 }

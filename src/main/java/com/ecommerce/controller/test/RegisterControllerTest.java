@@ -24,13 +24,5 @@ public class RegisterControllerTest {
         return ResponseEntity.ok(user);
     }
 
-    @GetMapping("/get")
-    public ResponseEntity<List<UserEntity>> listarUsuarios(){
-        return ResponseEntity.ok(userRepository.findAll());
-    }
 
-    @GetMapping("/a")
-    public String s(){
-        return "hola";
-    }
 }

@@ -5,7 +5,15 @@ meta {
 }
 
 post {
-  url: 
-  body: none
+  url: http://localhost:8080/crear-usuario
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "username":"pepe",
+    "email":"pepe@gmail.com",
+    "password":"12345678910"
+  }
 }
