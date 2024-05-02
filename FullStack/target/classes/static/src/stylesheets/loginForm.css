@@ -17,3 +17,6 @@ form{
     width: 100%;
     justify-content: space-evenly;
 }
+.loginForm_input{
+    width: 75%;
+}

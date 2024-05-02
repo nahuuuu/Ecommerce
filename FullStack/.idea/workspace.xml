@@ -7,11 +7,17 @@
     <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/TestBaseDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/TestBaseDeDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/util/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/util/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/src/components/RegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/src/components/RegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/TestBaseDeDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/TestBaseDeDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/elpepe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/RegisterControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/RoleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/RoleControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/RegisterControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/RoleControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/RoleControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "TestBackend",
-    "last_opened_file_path": "C:/Users/nahue/Desktop/test full stacj/backend"
+    "last_opened_file_path": "C:/Users/nahue/Desktop/proyecto e/test full stacj"
   }
 }]]></component>
   <component name="RunManager">

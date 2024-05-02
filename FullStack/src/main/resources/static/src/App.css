@@ -4,8 +4,17 @@
 body{
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  overflow-y: auto; /* Mueve overflow-y: auto; a html y body */
+  overflow: auto;
   background-color: #90e0bb;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
+}
+html{
+  height: 100%;
+  margin: 0;
+  overflow-y: auto; /* Mueve overflow-y: auto; a html y body */
+
 }
