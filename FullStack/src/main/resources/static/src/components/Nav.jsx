@@ -24,7 +24,8 @@ return (
             </div>
         </div>
             <div className="nav_buttons">
-                <div className="nav_compras"><a  href="/home"><div>Mis compras</div></a></div>
+            <div className="nav_compras"><a  href="/home"><div>Mis compras</div></a></div>
+            <div className="nav_compras"><a  href="/home/vender"><div>Vender</div></a></div>
                 <div className="nav_div_a"><a  href="/home"><NotificationSvg/></a></div>
                 <div className="nav_div_a"><a  href="/home"><HeartSvg/></a></div>
                 <div className="nav_div_a"><a  href="/home"><CartSvg/></a></div>

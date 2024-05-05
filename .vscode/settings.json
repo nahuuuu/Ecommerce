@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "FullStack/src/main/java/com/ecommerce"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}

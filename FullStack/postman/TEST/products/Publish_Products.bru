@@ -1,0 +1,77 @@
+meta {
+  name: Publish_Products
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/post-products
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+      {
+          "title": "Auriculares",
+          "price": 100.50,
+          "description": "Este es un producto de alta calidad.",
+          "rating": 4.5
+      },
+      {
+          "title": "Procesador",
+          "price": 200.00,
+          "description": "Este producto tiene un excelente rendimiento.",
+          "rating": 4.0
+      },
+      {
+          "title": "Auriculares",
+          "price": 150.75,
+          "description": "Un producto popular entre los consumidores.",
+          "rating": 4.2
+      },
+      {
+          "title": "Teclado",
+          "price": 300.00,
+          "description": "Este producto es conocido por su durabilidad.",
+          "rating": 4.8
+      },
+      {
+          "title": "Monitor",
+          "price": 250.25,
+          "description": "Un producto con un diseño moderno.",
+          "rating": 4.3
+      },
+      {
+          "title": "Celular generico",
+          "price": 350.00,
+          "description": "Este producto ofrece una gran relación calidad-precio.",
+          "rating": 4.7
+      },
+      {
+          "title": "Tarjeta grafica",
+          "price": 275.00,
+          "description": "Un producto con excelentes características.",
+          "rating": 4.6
+      },
+      {
+          "title": "Guitarra acustica e-20",
+          "price": 400.00,
+          "description": "Este producto es altamente recomendado por los expertos.",
+          "rating": 4.9
+      },
+      {
+          "title": "Auriculares wireless",
+          "price": 225.50,
+          "description": "Un producto con una gran demanda en el mercado.",
+          "rating": 4.4
+      },
+      {
+          "title": "Teclado + mouse",
+          "price": 500.00,
+          "description": "Este es nuestro producto más vendido.",
+          "rating": 5.0
+      }
+  ]
+  
+}

@@ -21,6 +21,7 @@ const LoginForm = () => {
 
       if (response.status === 200) {
         Cookies.set('token', response.data.jwt, { secure: false, sameSite: 'strict' });
+        
         navigate("/home");
       } else if (response.status === 401) {
           console.log("contraseña o usuario incorrecto");

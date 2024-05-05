@@ -22,7 +22,7 @@ const RegisterForm = () => {
         password: password
       })
     });
-       console.log(username);
+      console.log(response);
 
   }
 

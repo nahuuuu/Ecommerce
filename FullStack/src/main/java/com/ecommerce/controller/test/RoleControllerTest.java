@@ -36,6 +36,13 @@ public class RoleControllerTest {
         return ResponseEntity.ok(permissionRepository.findAll());
     }
 
+    @PostMapping("/crear-usuario")
+    public ResponseEntity<String> crearUsuario(@RequestBody UserEntity user){
+
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        mapeoEntidadesTest.creacionRole_User(user);
+        return ResponseEntity.ok("Usuario creado");
+    }
 
     @PostMapping("/promote-user")
     public ResponseEntity<String> toSuperUser(@RequestBody String username){
