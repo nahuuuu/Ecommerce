@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="" />
+    <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +60,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;TestBackend&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nahue/Desktop/proyecto e/backend&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nahue/Desktop/proyecto e/test full stacj&quot;
   }
 }</component>
   <component name="RunManager">

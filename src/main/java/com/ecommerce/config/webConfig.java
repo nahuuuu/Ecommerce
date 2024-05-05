@@ -38,6 +38,10 @@ public class webConfig {
                     authConfig.requestMatchers(HttpMethod.POST, "/crear-usuario").permitAll();
                     authConfig.requestMatchers(HttpMethod.POST, "/api/login").permitAll();
                     authConfig.requestMatchers(HttpMethod.POST, "/promote-user").permitAll();
+                    //products
+                    authConfig.requestMatchers(HttpMethod.GET, "/api/get-products").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/post-products").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/post-one-products").permitAll();
                 });
 
          return http.build();
