@@ -37,7 +37,7 @@ const LoginForm = () => {
           <Input type="username" text="Nombre de usuario" onChange={e => setUsername(e.target.value)}></Input>
         </div>
         <div className='loginForm_input'>
-          <Input type="password" text="Contraseña" onChange={e => setPassword(e.target.value)}></Input>
+          <Input type="password" text="Contraseña" l={"8"} onChange={e => setPassword(e.target.value)}></Input>
         </div>
         <div className="loginForm_buttons">
           <Button b="b1" buttonExpand="buttonExpand" buttonExpandMin={"25%"} buttonExpandMax={"35%"} type="submit" text="Iniciar Sesión" isHovered={isHovered} />

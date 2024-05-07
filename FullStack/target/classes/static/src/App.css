@@ -8,7 +8,7 @@ body{
   margin: 0;
   overflow-y: auto; /* Mueve overflow-y: auto; a html y body */
   overflow: auto;
-  background-color: #90e0bb;
+  background-color: #89d3b0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }

@@ -29,9 +29,9 @@ const RegisterForm = () => {
   return (
     <div className="loginForm_container">
         <form onSubmit={handleSubmit}>
-          <div className='loginForm_input'><Input type="text" text="Usuario" onChange={e => setUsername(e.target.value)}></Input></div>
+          <div className='loginForm_input'><Input l={5} type="text" text="Usuario" onChange={e => setUsername(e.target.value)}></Input></div>
           <div className='loginForm_input'><Input type="email" text="Correo Electrónico" onChange={e => setEmail(e.target.value)}></Input></div>
-          <div className='loginForm_input'><Input type="password" text="Contraseña" onChange={e => setPassword(e.target.value)}></Input></div>
+          <div className='loginForm_input'><Input l={8} type="password" text="Contraseña" onChange={e => setPassword(e.target.value)}></Input></div>
         
             <div className="registerForm_buttons">
                 <Button buttonExpand={"buttonExpand"} buttonExpandMin={"30%"} buttonExpandMax={"40%"} type={"submit"} text={"Completar Registro"}/>
