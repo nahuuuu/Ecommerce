@@ -1,0 +1,29 @@
+.textArea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.textArea label{
+    color: #ffffff;
+    font-size: 20px;
+}
+.textArea textarea{
+    background: linear-gradient(to top, #5f927a , transparent );
+    border: none;
+    border-radius: 5px;
+    color: #112d32;
+    padding: 5px;
+    padding-left: 8px;
+    transition: 1s;
+    font-size: 15px;
+    resize: none;
+    height: 100%;
+}
+.textArea textarea:focus{
+    background-color: #7cbe9f;
+    transition: 1s;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}

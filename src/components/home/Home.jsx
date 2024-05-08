@@ -8,12 +8,7 @@ const Home = () => {
 <Nav cn="nav"></Nav>
 <aside className="filter-left"> </aside>
 <div className="products">
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
+<ProductCard/>
 </div>
 <aside className="filter-right"><a href="#nav" className="arrow_container" ><ArrowSvg/></a></aside>
 </div>

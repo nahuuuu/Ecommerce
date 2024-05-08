@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import "../stylesheets/loginInput.css"
 
-const Input = ({type, text, name, className}) => {
+const Input = ({type, text, name, className, onChange,l}) => {
   const [error, setError] = useState('');
   const [opacity, setOpacity] = useState(0);
   const  inputRef = useRef();
@@ -35,7 +35,12 @@ const Input = ({type, text, name, className}) => {
           setError('Este campo tiene que ser un correo electrónico.');
         }
         if(event.target.validity.tooShort){
-          setError('La contraseña debe tener al menos 8 caracteres.');
+          if(type==="password"){
+            setError(`La contraseña debe tener al menos ${l} caracteres.`);
+          }else{
+            setError(`El campo debe tener al menos ${l} caracteres.`);
+          }
+          
         }
       }
     };
@@ -58,7 +63,7 @@ const Input = ({type, text, name, className}) => {
   return (
     <div className="input">
       <label htmlFor={type}>{text}</label>
-      <input type={type} name={name} id={type} className={className} required minLength={type === 'password' ? 8 : undefined} onBlur={handleBlur} ref={inputRef} />
+      <input type={type} name={name} id={type} className={className} required minLength={l != undefined ? l : undefined} onBlur={handleBlur} ref={inputRef} onChange={onChange} />
       {error && <p style={{opacity: opacity}} className='error'>{error}</p>}
     </div>
   );

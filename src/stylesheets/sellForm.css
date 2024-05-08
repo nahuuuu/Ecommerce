@@ -1,0 +1,46 @@
+.home_vender{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #89d3b0;
+}
+.body_vender{
+    flex-grow: 1;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sellForm_container{
+    width: 500px;
+    height: 500px;
+    background-color: #225f6a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sellForm{
+    width: 75%;
+    display: flex;
+}
+.sellForm_title{
+    color: white;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  
+  /* Para Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .textArea{
+    flex-grow: 0.2;
+  }
+.sellForm_h2{
+    margin-top: 6%;
+}
