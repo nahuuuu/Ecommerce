@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -26,6 +28,9 @@ public class ProductEntity {
 
     @Column
     private Float rating;
+
+    @OneToMany(mappedBy = "products")
+    private List<OrderDetailEntity> cart;
 
 // TODO: 4/5/2024
 // implementar relacion con usuario, categoria. añadir columna stock, rating, etc.

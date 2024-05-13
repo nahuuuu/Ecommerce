@@ -79,8 +79,8 @@ public class MapeoEntidadesTest {
         userRepository.save(user);
 
         //Creacion del dto
-        UserDto dto = new UserDto(user.getId(), user.getUsername(), user.getEmail(),
-                user.getPassword(), user.getRole());
+        UserDto dto = new UserDto(user.getId(), user.getUsername(), user.getEmail()
+                , user.getRole(), user.getPurchase());
         return "Rol cambiado a " + dto.getRoles() + " exitosamente";
     }
 }

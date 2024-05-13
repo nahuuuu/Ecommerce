@@ -38,17 +38,20 @@ public class UserEntity implements UserDetails {
     @Column(nullable = false)
     private String email;
 
-   @ManyToMany(cascade = CascadeType.ALL)
+   @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"),
    inverseJoinColumns = @JoinColumn(name = "role_id"))
    private Set<RoleEntity> role = new HashSet<>();
 
+   @OneToMany(mappedBy = "user")
+    private List<PurchaseEntity> purchase;
+
 
     @Override
-    // TODO: 29/4/2024 pasar la logica a un service
     public Collection<? extends GrantedAuthority> getAuthorities() {
         Set<RoleEntity> setRole = getRole();
 
+        //arreglar
         RoleEntity role = setRole.stream().findFirst().orElse(new RoleEntity(Role.GUEST));
 
 

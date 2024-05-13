@@ -42,6 +42,9 @@ public class webConfig {
                     authConfig.requestMatchers(HttpMethod.GET, "/api/get-products").permitAll();
                     authConfig.requestMatchers(HttpMethod.POST, "/api/post-products").permitAll();
                     authConfig.requestMatchers(HttpMethod.POST, "/api/post-one-products").permitAll();
+                    //validate Token
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/check-token").authenticated();
+                    authConfig.requestMatchers(HttpMethod.GET, "/test").permitAll();
                 });
 
          return http.build();

@@ -5,16 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/BORRAR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/mapper/Mappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/PurchaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/iUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/util/OrderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/Authentication/login.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/BORRAR.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/Post user Base de datos.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/TEST Obtener usuarios base de datos.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/USER-ROLE-PERMISSION/Permission-get.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/USER-ROLE-PERMISSION/Permission.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/USER-ROLE-PERMISSION/PromoteUser.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/USER-ROLE-PERMISSION/crearUsuario.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/products/Publish_Products.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/TEST/products/upload-one-product.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/a.bru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/bruno.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/noborrarpolfavo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +57,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -55,14 +88,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;TestBackend&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nahue/Desktop/proyecto e/test full stacj&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "TestBackend",
+    "last_opened_file_path": "C:/Users/nahue/Desktop/proyecto e/backend deveritas",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="backend" />
