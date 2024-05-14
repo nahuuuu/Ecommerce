@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
@@ -24,10 +25,12 @@ public class ProductEntity {
     private String description;
 
     @Column
-    private Float price;
+    private BigDecimal price;
 
     @Column
     private Float rating;
+
+    private Integer stock;
 
     @OneToMany(mappedBy = "products")
     private List<OrderDetailEntity> cart;

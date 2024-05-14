@@ -9,7 +9,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/OrderDetailController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/BORRAR.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/ProductDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserUpdateRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/exception/ResourceNotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/mapper/Mappers.java" afterDir="false" />
@@ -42,9 +44,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/AuthenticationService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/JwtService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" afterDir="false" />

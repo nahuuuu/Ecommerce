@@ -43,8 +43,14 @@ public class UserEntity implements UserDetails {
    inverseJoinColumns = @JoinColumn(name = "role_id"))
    private Set<RoleEntity> role = new HashSet<>();
 
-   @OneToMany(mappedBy = "user")
+
+    //own_purchases
+    @OneToMany(mappedBy = "user")
     private List<PurchaseEntity> purchase;
+
+    //published products
+
+    //private Set<ProductEntity> publ
 
 
     @Override

@@ -21,7 +21,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
-/*
+
 @Service
 public class UserService implements iUserService {
 
@@ -109,4 +109,3 @@ public class UserService implements iUserService {
         return Mappers.userToUserDto(user);
     }
 }
-*/

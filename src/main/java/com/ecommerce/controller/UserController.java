@@ -1,4 +1,4 @@
-/*
+
 package com.ecommerce.controller;
 
 import com.ecommerce.dto.Pagination;
@@ -27,4 +27,4 @@ public class UserController {
         List<UserDto> userList = userService.getAllUsers(pagination);
         return ResponseEntity.ok(userList);
     }
-}*/
+}

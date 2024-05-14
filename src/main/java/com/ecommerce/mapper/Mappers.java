@@ -6,13 +6,13 @@ import com.ecommerce.entity.UserEntity;
 
 public class Mappers {
 
-    /*public static UserDto userToUserDto(UserEntity user){
+    public static UserDto userToUserDto(UserEntity user){
         return new UserDto(
                 user.getId(),
                 user.getUsername(),
                 user.getEmail(),
-                user.getPassword(),
-                user.getRole()
+                user.getRole(),
+                user.getPurchase()
         );
     }
 
@@ -22,6 +22,6 @@ public class Mappers {
     }
 
 
-*/
+
 
 }
