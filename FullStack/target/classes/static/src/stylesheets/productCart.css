@@ -1,0 +1,134 @@
+
+.product_container_c{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.product_container_c:last-child{
+    margin-bottom: 50px;
+}
+
+.product_card_c{
+    border-radius: 25px; 
+    width: 90%;
+    height: 250px;
+    background-color: #90e0bb;
+    display: flex;
+    transition: 1s;
+    border: 1px solid black;
+    
+}
+.product_card_c:hover{
+    transition: 1s;
+}
+.product_image_c{
+    height: 100%;
+    border-radius: 25px; 
+    min-width: 250px;
+    background-color: black;
+}
+.product_info_c{
+    flex-basis: 100%;
+    border-radius: 25px; 
+    display: flex;
+    flex-direction: row;
+}
+.product_a_c{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+
+.product_price_c{
+    flex-basis: 75%;
+    justify-content: space-evenly;
+    margin-right  : 2%;
+    display: flex;
+    align-items: center;
+    max-height: 100%;
+}
+
+.product_a_container_c{
+    flex-basis: 50%;
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.product_price_p_c{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_price_p_c p{
+    font-size: 35px;
+    margin-left: 10%;
+}
+
+
+.product_tittle_c{
+    flex-basis: 100%;
+}
+.product_tittle_h2_c{
+    margin: 0;
+}
+.product_rate_c{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.product_rate_c p{
+    margin-right: 5px;
+}
+.l_c{
+    width: 100%;
+    height: 100%;
+}
+.product_amount_container_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    background-color: #14373e;
+    border-radius: 20px;
+
+}
+.product_button{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+.product_eliminate{
+    position: relative;
+    flex-basis: 5%;
+}
+.product_buttoncartsvg{
+    background-color: transparent;
+    border: none;
+}
+.product_addCart{
+    display: flex;
+    flex-direction: row;
+}
+.product_count{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.product_count p{
+color: white;
+
+}
+.cart_tittle{
+    text-align: center;
+    margin-top: 80px;
+}
