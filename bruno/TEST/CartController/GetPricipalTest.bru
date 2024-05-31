@@ -1,0 +1,15 @@
+meta {
+  name: GetPricipalTest
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/api/cart/get
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYXUiLCJpYXQiOjE3MTY2MDE3NTMsImV4cCI6MTcxNjYwMzU1M30.wPd0Vs0GeqU3dDM0ClNCQ-vGMwslxpUbN6aGJNklvbM
+}

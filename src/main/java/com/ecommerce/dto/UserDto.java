@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-public record UserDto(Long id, String username, String email, Set<RoleEntity> role, List<PurchaseEntity> purchases) {
+public record UserDto(Long id, String username, String email, Set<RoleEntity> role /*List<PurchaseEntity> purchases*/) {
 
 
     public Role getRoles(){

@@ -1,4 +1,4 @@
-package com.ecommerce.controller.test;
+package com.ecommerce.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

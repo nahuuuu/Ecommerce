@@ -1,0 +1,12 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÿç°ûÿÿÿÿ8Âÿı¸ú1J$fb7e3f77-5a37-4991-82c5-0a505171a258
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Òÿı¸ú1J$9ea54e2d-d11a-4771-a572-7e92b66c3e0e
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Óÿı¸ú1J$280768f6-7c56-43d6-84d5-03d66bf4ee2e
+
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(Á®†‹8Öÿı¸ú1J$df9026e9-e01f-49ca-ac87-742a9bbca70d
+¢
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(¸ñÓèüÿÿÿÿ8×ÿı¸ú1J$aa39428a-697b-4616-b87f-d783f2d1995b
+~
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8êÿı¸ú1J$d00cd40f-16ce-4222-9375-58b3d548d67c

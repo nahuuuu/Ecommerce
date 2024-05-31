@@ -1,39 +1,57 @@
+
 package com.ecommerce.entity;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
-@Entity
-@Data
+
+
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
+@Data
+@Table(name = "products")
 public class ProductEntity {
 
+    @Getter
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+
+
     private String title;
 
-    @Column
     private String description;
 
-    @Column
-    private Float price;
+    private BigDecimal price;
 
-    @Column
     private Float rating;
 
-    @OneToMany(mappedBy = "products")
-    private List<OrderDetailEntity> cart;
+    private Integer stock;
 
-// TODO: 4/5/2024
-// implementar relacion con usuario, categoria. añadir columna stock, rating, etc.
+    @JsonIgnore
+    @ManyToMany(mappedBy = "cartProducts")
+    private List<CartEntity> cart;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "odProduct")
+    private List<OrderDetailEntity> orderDetail;
+    @JsonIgnore
+    @ManyToMany(mappedBy = "products")
+    private List<FavoriteProductsEntity> favProductsList;
+
+
+
+    // implementar relacion con usuario, categoria. añadir columna stock, rating, etc.
     //private UserEntity userEntity;
 
 

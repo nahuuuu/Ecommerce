@@ -1,10 +1,8 @@
-/*
+
 package com.ecommerce.controller;
 
 import com.ecommerce.dto.Pagination;
-import com.ecommerce.dto.UserDto;
-import com.ecommerce.entity.UserEntity;
-import com.ecommerce.service.impl.UserService;
+import com.ecommerce.service.impl.UserServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +17,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private UserServiceImpl userService;
 
     @GetMapping("/get-all")
     public ResponseEntity<List<UserDto>> getAllUsers(@Valid Pagination pagination){
@@ -27,4 +25,4 @@ public class UserController {
         List<UserDto> userList = userService.getAllUsers(pagination);
         return ResponseEntity.ok(userList);
     }
-}*/
+}

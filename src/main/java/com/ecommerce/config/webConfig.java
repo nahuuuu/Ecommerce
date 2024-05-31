@@ -45,6 +45,10 @@ public class webConfig {
                     //validate Token
                     authConfig.requestMatchers(HttpMethod.POST, "/api/check-token").authenticated();
                     authConfig.requestMatchers(HttpMethod.GET, "/test").permitAll();
+
+                    //controlador carrito test
+                    authConfig.requestMatchers(HttpMethod.GET, "api/cart/get").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "api/cart/post").permitAll();
                 });
 
          return http.build();

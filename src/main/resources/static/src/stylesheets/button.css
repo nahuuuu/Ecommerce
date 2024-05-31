@@ -1,0 +1,34 @@
+button{
+    background-color: #14373e;
+    width: auto;
+    transition: 1s;
+    color: rgb(255, 255, 255); 
+    border: none;
+    height: 40px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #7cbe9f;
+    color: black; 
+    border: none;
+    transition: 1s;
+    height: 40px;
+    border-radius: 6px;
+}
+/*Dos botones expandir, mover y desaparecer*/
+.b2{
+    opacity: 1;
+    transition: 1s;
+}
+.b1:hover ~ .b2{
+    transition: 1s;
+    opacity: 0;
+}
+.b1:hover{
+    transform: translateX(50%);
+    transition: 1s;
+}
+
+.b2:hover{
+    transform: translateX(-50%);
+}

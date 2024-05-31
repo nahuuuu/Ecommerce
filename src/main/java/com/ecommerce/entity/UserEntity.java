@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 @Builder
 @Data
-@Table(name = "user_table")
+@Table(name = "users")
 public class UserEntity implements UserDetails {
 
     @Id
@@ -43,8 +43,25 @@ public class UserEntity implements UserDetails {
    inverseJoinColumns = @JoinColumn(name = "role_id"))
    private Set<RoleEntity> role = new HashSet<>();
 
-   @OneToMany(mappedBy = "user")
-    private List<PurchaseEntity> purchase;
+
+    //own_purchases
+    /*@OneToMany(mappedBy = "user")
+    private List<PurchaseEntity> purchase;*/
+
+    // own_cart - one user can have only one cart (wich one can be updated on the db)
+    @OneToOne(mappedBy = "cartOwner", cascade = CascadeType.ALL)
+    private CartEntity cart;
+
+    // Fav products
+    @OneToOne(mappedBy = "favListOwner")
+    private FavoriteProductsEntity favProductsList;
+
+    // purchase
+    @OneToMany(mappedBy = "user")
+    private List<PurchaseEntity> purchases;
+
+    //published products
+    //private Set<ProductEntity> publ
 
 
     @Override

@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  overflow-y: auto; /* Mueve overflow-y: auto; a html y body */
+  overflow: auto;
+  background-color: #89d3b0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  
+}
+body::-webkit-scrollbar {
+   width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #80c3a4;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #225f6a;
+border-radius: 5px;
+}
+html{
+  height: 100%;
+  margin: 0;
+  overflow-y: auto; /* Mueve overflow-y: auto; a html y body */
+
+}

@@ -1,0 +1,8 @@
+
+‘
+java:S36551"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ééã£ıÿÿÿÿJ$2ab570e6-7b05-4e2e-a442-ea86f04e3d4a
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$cb910c31-8b42-4505-9cd4-b1319d99dd6c
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$a005b72c-fc15-4301-9e6e-37fd6055a76a
+k	java:S106:"+Replace this use of System.out by a logger.(ëìõßüÿÿÿÿJ$2fea19b1-f6c2-428f-835d-17899f0c5982

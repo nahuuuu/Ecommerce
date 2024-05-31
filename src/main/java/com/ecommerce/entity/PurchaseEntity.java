@@ -15,7 +15,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "purchase")
+@Table(name = "purchases")
 public class PurchaseEntity {
 
     @Id
@@ -25,19 +25,20 @@ public class PurchaseEntity {
     @Column(name = "username")
     private String username;
 
+    @Column(name = "date")
     private LocalDateTime date;
 
     @Column(name = "order_status")
     @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus;
 
-    @Column(name = "shipping_adress")
-    @NotBlank(message = "Enter the adress")
-    private String shippingpAddress;
+    @Column(name = "shipping_address")
+    @NotBlank(message = "Enter the address")
+    private String shippingAddress;
 
     @ManyToOne
     @JoinColumn(name = "id_user")
-    //@JsonIgnore
+    @JsonIgnore
     private UserEntity user;
 
     @OneToMany(mappedBy = "purchase")

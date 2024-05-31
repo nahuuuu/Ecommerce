@@ -1,12 +1,11 @@
 package com.ecommerce.service.interfaces;
 
 import com.ecommerce.dto.Pagination;
-import com.ecommerce.dto.UserDto;
 import com.ecommerce.dto.UserUpdateRequest;
 
 import java.util.List;
 
-public interface iUserService {
+public interface IUserService {
 
     List<UserDto> getAllUsers(Pagination pagination);
 

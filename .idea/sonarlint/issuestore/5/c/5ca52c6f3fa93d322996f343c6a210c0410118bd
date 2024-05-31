@@ -1,0 +1,13 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹£îªýÿÿÿÿ8ÿŸŒ¹ú1J$83c389ae-ef3d-4297-90d5-d7aebd5a7228
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$b8a65642-e65b-4021-ad93-eb343cf9097f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$3ee7fe65-d16d-430e-bdef-50c9819a51d9
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$a123d15c-368f-480c-a843-e27e05ecb5aa
+t
+java:S1172"2Remove this unused method parameter "permissions".(á¸ï(8’ Œ¹ú1J$8e7a87b7-cca0-4c81-9966-f9129da4e54d
+Š
+java:S1612!"BReplace this lambda with method reference 'PermissionEntity::new'.(ÔÔç˜ûÿÿÿÿ8” Œ¹ú1J$c5ed63e9-ad18-48a9-b6ef-a61bfc7250f3
+•	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍå¸þÿÿÿÿ8ž Œ¹ú1J$333bdc77-01bf-4b46-821f-68b47fd01fd9

@@ -1,0 +1,19 @@
+meta {
+  name: publish-one-product
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/post-one-products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title":"pepepep",
+    "price":12,
+    "description":"qwdqwdqwdqw"
+  }
+}

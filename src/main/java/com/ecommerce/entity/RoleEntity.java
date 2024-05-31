@@ -9,7 +9,7 @@ import java.util.Set;
 
 @Data
 @Entity
-@Table(name = "role")
+@Table(name = "roles")
 @NoArgsConstructor
 public class RoleEntity {
 

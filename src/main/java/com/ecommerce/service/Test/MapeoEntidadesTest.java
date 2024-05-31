@@ -1,6 +1,5 @@
 package com.ecommerce.service.Test;
 
-import com.ecommerce.dto.UserDto;
 import com.ecommerce.entity.PermissionEntity;
 import com.ecommerce.entity.RoleEntity;
 import com.ecommerce.entity.UserEntity;
@@ -80,7 +79,7 @@ public class MapeoEntidadesTest {
 
         //Creacion del dto
         UserDto dto = new UserDto(user.getId(), user.getUsername(), user.getEmail()
-                , user.getRole(), user.getPurchase());
+                , user.getRole()/*, user.getPurchase()*/);
         return "Rol cambiado a " + dto.getRoles() + " exitosamente";
     }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "order_detail")
+@Table(name = "orderdetail")
 public class OrderDetailEntity {
 
     @Id
@@ -20,7 +20,6 @@ public class OrderDetailEntity {
     private Long id;
 
     @NotNull(message = "The quantity of products cannot be zero")
-
     private Integer quantity;
 
     @NotNull(message = "The price of products cannot be zero")
@@ -28,7 +27,7 @@ public class OrderDetailEntity {
 
     @ManyToOne
     @JoinColumn(name = "id_product")
-    private ProductEntity products;
+    private ProductEntity odProduct;
 
     @ManyToOne
     @JoinColumn(name = "id_purchase")

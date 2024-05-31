@@ -6,18 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/FavoriteProductsController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/OrderDetailController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/BORRAR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/CartDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/ProductRequestDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/FavoriteProductsEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/exception/ResourceNotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/mapper/Mappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/FavoriteProductsRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/PurchaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/iUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IOrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IPurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IUserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/util/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ecommerce/service/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postman/TEST/Authentication/login.bru" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/postman/TEST/BORRAR.bru" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/postman/TEST/Post user Base de datos.bru" beforeDir="false" />
@@ -33,8 +48,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/CartEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/PermissionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/PermissionEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/RoleEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/AuthenticationService.java" afterDir="false" />
@@ -42,9 +61,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/PermissionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/PermissionEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/RoleEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/AuthenticationService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/JwtService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/MapeoEntidadesTest.class" afterDir="false" />
@@ -57,15 +81,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.jar!/org/springframework/data/domain/Page.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.jar!/org/springframework/data/repository/PagingAndSortingRepository.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,18 +116,119 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "TestBackend",
-    "last_opened_file_path": "C:/Users/nahue/Desktop/proyecto e/backend deveritas",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TestBackend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nahue/Desktop/proyecto e/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nahue\Desktop\proyecto e\backend deveritas\src\main\java\com\ecommerce\dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.testGetAllUser">
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.GetAllUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="GetAllUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.deleteUserFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="deleteUserFailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.getAllUserFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getAllUserFailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testGetAllUser" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.updateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecommerce.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="updateUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="backend" />
       <method v="2">
@@ -113,6 +242,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.GetAllUserTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.updateUserTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.deleteUserFailTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.getAllUserFailTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

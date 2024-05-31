@@ -1,5 +1,6 @@
 package com.ecommerce.controller.test;
 
+import com.ecommerce.dto.ProductDTO;
 import com.ecommerce.entity.ProductEntity;
 import com.ecommerce.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +19,8 @@ public class ProductControllerTest {
     private ProductRepository productRepository;
 
     @GetMapping("/api/get-products")
-    public ResponseEntity<List<ProductEntity>> loadAllProducts(){
-        return ResponseEntity.ok(productRepository.findAll());
+    public ResponseEntity<List<ProductDTO>> loadAllProducts(){
+        return
     }
 
     @PostMapping("/api/post-products")
