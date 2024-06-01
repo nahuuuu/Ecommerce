@@ -1,5 +1,7 @@
 package com.ecommerce.controller;
 
+import com.ecommerce.dto.OrderDetailRequest;
+import com.ecommerce.dto.ProductDTO;
 import com.ecommerce.entity.CartEntity;
 import com.ecommerce.entity.OrderDetailEntity;
 import com.ecommerce.entity.ProductEntity;
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/cart")
@@ -34,8 +37,8 @@ private OrderDetailRepository orderDetailRepository;
 @Autowired
 private ProductRepository productRepository;
 
-
-    /*@GetMapping("/get")
+/*
+    @GetMapping("/get")
     public ResponseEntity<CartEntity> getCart(Authentication authentication){
         buscar y comparar id de usuario autenticado con la del pathvariable
        UserDto currentUser = Mappers.userToUserDto(userRepository.findByUsername(authentication.getName()).orElseThrow(
@@ -49,18 +52,16 @@ private ProductRepository productRepository;
 
         return null;
     }
-
+*/
     @PostMapping("/post")
-    public ResponseEntity<String> postCart(Authentication auth, @RequestBody Set<CreateCartRequest> cartRequest){
+    public ResponseEntity<String> postCart(Authentication auth, @RequestBody List<OrderDetailRequest> product){
         UserEntity currentUser = userRepository.findByUsername(auth.getName()).orElseThrow(
                 ()-> new ResourceNotFoundException("notfound")
         );
 
-        OrderDetailEntity orderDetail = new OrderDetailEntity();
+        List<Long> p = product.stream().map(a -> a.productId()).collect(Collectors.toList());
 
-
-
-        List<ProductEntity> products = productRepository.findAllById(cartRequest.id());
+        List<ProductEntity> products = productRepository.findAllById(p);
 
         CartEntity cart = new CartEntity();
         cart.setTotalPrice(new BigDecimal("12.34"));
@@ -69,10 +70,8 @@ private ProductRepository productRepository;
         currentUser.setCart(cart);
 
 
-
-
         userRepository.save(currentUser);
 
         return ResponseEntity.ok("Carrito creado con exito");
-    }*/
+    }
 }

@@ -1,22 +1,23 @@
 package com.ecommerce.service.interfaces;
 
 import com.ecommerce.dto.Pagination;
+import com.ecommerce.dto.UserDTO;
 import com.ecommerce.dto.UserUpdateRequest;
 
 import java.util.List;
 
 public interface IUserService {
 
-    List<UserDto> getAllUsers(Pagination pagination);
+    List<UserDTO> getAllUsers(Pagination pagination);
 
-    UserDto getUser(Long id);
+    UserDTO getUser(Long id);
 
     String deleteUser(Long id);
 
-    UserDto updateUser(Long id, UserUpdateRequest user);
+    UserDTO updateUser(Long id, UserUpdateRequest user);
 
-    UserDto findByUsername(String username);
+    UserDTO findByUsername(String username);
 
-    UserDto findByEmail(String email);
+    UserDTO findByEmail(String email);
 
 }

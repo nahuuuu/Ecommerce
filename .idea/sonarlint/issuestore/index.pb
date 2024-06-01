@@ -99,3 +99,9 @@ m
 =src/main/java/com/ecommerce/service/impl/CartServiceImpl.java,0\7\07f2e892314d05e589bc5a5e59664a5a43d93845
 \
 ,src/main/java/com/ecommerce/dto/UserDTO.java,3\c\3c5c3678422c95856d8d9b9b1ececc3deba15363
+p
+@src/main/java/com/ecommerce/service/impl/ProductServiceImpl.java,6\a\6a84597f63989b02a87836d6290e29b6396db25d
+p
+@src/main/java/com/ecommerce/service/interfaces/IUserService.java,9\e\9e0dc38bde7829d57336bf0aca71532e129bed3a
+i
+9src/main/java/com/ecommerce/entity/OrderDetailEntity.java,f\e\fe91a021d52005e529a0ca08f453a874a3b8f57d

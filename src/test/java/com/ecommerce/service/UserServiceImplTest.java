@@ -1,6 +1,7 @@
 package com.ecommerce.service;
 
 import com.ecommerce.dto.Pagination;
+import com.ecommerce.dto.UserDTO;
 import com.ecommerce.dto.UserUpdateRequest;
 import com.ecommerce.entity.OrderDetailEntity;
 import com.ecommerce.entity.PurchaseEntity;
@@ -70,7 +71,7 @@ public class UserServiceImplTest {
 
 
         // Calling the method under test
-        List<UserDto> result = userService.getAllUsers(pagination);
+        List<UserDTO> result = userService.getAllUsers(pagination);
 
         // Verify that the result is not empty
         assertFalse(result.isEmpty());
@@ -114,7 +115,7 @@ public class UserServiceImplTest {
         when(userRepository.findById(userId)).thenReturn(Optional.of(userEntity));
 
         // Act
-        UserDto result = userService.getUser(userId);
+        UserDTO result = userService.getUser(userId);
 
         // Assert
         Assertions.assertNotNull(result, "UserDTO is NULL");
@@ -227,7 +228,7 @@ public class UserServiceImplTest {
 
         // Act
 
-        UserDto updateUserDTO = userService.updateUser(userId ,userUpdateRequest);
+        UserDTO updateUserDTO = userService.updateUser(userId ,userUpdateRequest);
 
         // Assert
 

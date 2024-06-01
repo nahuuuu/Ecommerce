@@ -1,6 +1,7 @@
 package com.ecommerce.service.impl;
 
-import com.ecommerce.dto.UserDto;
+
+import com.ecommerce.dto.UserDTO;
 import com.ecommerce.mapper.Mappers;
 import com.ecommerce.dto.Pagination;
 import com.ecommerce.dto.UserUpdateRequest;
@@ -35,7 +36,7 @@ public class UserServiceImpl implements IUserService {
     private OrderDetailRepository orderDetailRepository;
 
     @Override
-    public List<UserDto> getAllUsers(Pagination pagination){
+    public List<UserDTO> getAllUsers(Pagination pagination){
 
         Pageable pageable = PageRequest.of(pagination.page(), pagination.size(), Sort.by("username").ascending());
 
@@ -50,7 +51,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public UserDto getUser(Long id){
+    public UserDTO getUser(Long id){
         UserEntity user = userRepository.findById(id).orElseThrow(
                 () -> new ResourceNotFoundException("User with id '" + "' not found")
         );
@@ -79,7 +80,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public UserDto updateUser(Long id, UserUpdateRequest userUpdate){
+    public UserDTO updateUser(Long id, UserUpdateRequest userUpdate){
         UserEntity user = userRepository.findById(id).orElseThrow(
                 () -> new ResourceNotFoundException("User with id '" + id + "' not found")
         );
@@ -92,7 +93,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public UserDto findByUsername(String username){
+    public UserDTO findByUsername(String username){
         UserEntity user = userRepository.findByUsername(username).orElseThrow(
                 () -> new ResourceNotFoundException("User with name '" + username + "' was not found")
         );
@@ -101,7 +102,7 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public UserDto findByEmail(String email){
+    public UserDTO findByEmail(String email){
         UserEntity user = userRepository.findByEmail(email).orElseThrow(
                 () -> new ResourceNotFoundException("User with email '" + email + "' was not found")
         );

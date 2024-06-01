@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/FavoriteProductsRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/PurchaseRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/impl/UserServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/ICartService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IOrderDetailService.java" afterDir="false" />
@@ -55,6 +56,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/RoleEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/JwtService.java" afterDir="false" />
@@ -133,7 +135,7 @@
       <recent name="C:\Users\nahue\Desktop\proyecto e\backend deveritas\src\main\java\com\ecommerce\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest.testGetAllUser">
+  <component name="RunManager">
     <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="e-commerce" />
       <extension name="coverage">

@@ -1,7 +1,9 @@
 package com.ecommerce.dto;
 
+import com.ecommerce.entity.ProductEntity;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,6 +11,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Builder
 public class ProductDTO {
 
     @NotNull(message = "The product id cannot be null")

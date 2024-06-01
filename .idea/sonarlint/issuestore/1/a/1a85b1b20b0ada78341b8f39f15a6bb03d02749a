@@ -1,30 +1,18 @@
 
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŠö‰ü1J$00c13a6a-a929-4f1d-8c7e-13c8a39a46a0
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8³å‹ı1J$cdcdbf3f-f0b9-4473-8ce2-ae726b96b62d
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŠö‰ü1J$ab9e20a8-0409-431f-a04d-819a29d41c45
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8´å‹ı1J$e22b5a40-57b8-4017-b59b-7e65147e2f49
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŠö‰ü1J$2a7f23d8-996c-43de-a0ce-fdaa7cd69155
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8´å‹ı1J$296b5d86-03b5-4930-969a-9972b1e1d391
 …
-java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8æŠö‰ü1J$b153e326-3141-4bc9-8401-2e6c46355c0b
-~	java:S125'"<This block of commented-out lines of code should be removed.(Ï¥İ¶8ìŠö‰ü1J$774293cb-4d59-45b9-89d6-947818a13219
-
-java:S1128"<Remove this unused import 'com.ecommerce.entity.CartEntity'.(íŞöô8îŠö‰ü1J$1499381c-e36f-4ddf-bf04-07659b830116
-†
-java:S1128"CRemove this unused import 'com.ecommerce.entity.OrderDetailEntity'.(‰Ïâæ8ïŠö‰ü1J$42cf9b89-3cdc-4cd8-9497-36cf1c8973fc
-‚
-java:S1128"?Remove this unused import 'com.ecommerce.entity.ProductEntity'.(İøÁ8ïŠö‰ü1J$c6aa5e1b-d78c-4f68-8cc1-5812710ecd63
-„
-java:S1128"<Remove this unused import 'com.ecommerce.entity.UserEntity'.(úÜüÈúÿÿÿÿ8ïŠö‰ü1J$9f1b2131-a57c-4ad6-a167-f488af95a750
-‘
-java:S1128"NRemove this unused import 'com.ecommerce.exception.ResourceNotFoundException'.(•Ãøá8ïŠö‰ü1J$80847305-0984-4159-9281-558946c59df6
-Œ
-java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8ïŠö‰ü1J$924b21d6-235f-439b-a9ac-d47e8902203d
-
-java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“8ïŠö‰ü1J$395bd77f-88fb-4708-904d-664cd4649c6e
-t
-java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8ïŠö‰ü1J$d70959fc-6761-4a10-8d53-01915c776dec
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïŠö‰ü1J$97c13a8d-026c-4a43-9c1d-61fa01a910ca
-r
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ïŠö‰ü1J$1c24afa1-7326-4404-b703-64a5c242f3e3
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄŞ8´å‹ı1J$a54c7f4c-778a-4ed6-9e72-78aeccff707b
+~	java:S125*"<This block of commented-out lines of code should be removed.(Ï¥İ¶8»å‹ı1J$a3dbb0e1-cf5f-4742-b973-6ac69d1ccaa4
+Â
+java:S6204>"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ºĞñİûÿÿÿÿ8Œ¦Œı1J$4ac56356-9315-49ca-acd2-0c6a63f5a806
+[
+java:S1128"9Remove this unused import 'com.ecommerce.dto.ProductDTO'.(¥Ä–õıÿÿÿÿ8¡‚Ôı1
+`
+java:S1128"CRemove this unused import 'com.ecommerce.entity.OrderDetailEntity'.(‰Ïâæ8¡‚Ôı1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8¡‚Ôı1
