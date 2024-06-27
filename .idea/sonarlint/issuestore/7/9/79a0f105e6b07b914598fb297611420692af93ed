@@ -1,12 +1,13 @@
 
 n
-java:S1948,"&Make "role" transient or serializable.(·Å‚³ùÿÿÿÿ8‹ÂØ¹ú1J$76e04d88-bae9-4628-b3be-5ae8650013b4
+java:S1948,"&Make "role" transient or serializable.(·Å‚³ùÿÿÿÿ8™õ…Ùÿ1J$9b0f417b-3048-4f5b-b66c-c8a635070ab8
 i
-java:S19485"&Make "cart" transient or serializable.(ÈæÏõ8ğÒü1J$ebb104fd-e99a-4756-bb29-1f6ac14e4726
+java:S19480"&Make "cart" transient or serializable.(ÈæÏõ8›õ…Ùÿ1J$d8f99193-3208-411c-a69a-bdce558b1ff9
 t
-java:S19489"1Make "favProductsList" transient or serializable.(…Šú8ñÒü1J$4c26d568-99ac-4767-9fd5-d5357feedcbe
+java:S19484"1Make "favProductsList" transient or serializable.(…Šú8œõ…Ùÿ1J$0afd00cc-b9cc-4500-8b02-82f59e48ab3c
 s
-java:S1948="+Make "purchases" transient or serializable.(şóÿõÿÿÿÿÿ8ñÒü1J$6d20e118-bce1-448a-b612-ef7a878aa8b7
-w	java:S1251"<This block of commented-out lines of code should be removed.(¼¤øÎJ$54039263-7937-4585-9f5d-56d5e697b690
-y
-java:S1117H"8Rename "role" which hides the field declared at line 41.(ôÀ‹ÉşÿÿÿÿJ$03aa07f3-e1a5-4098-81c0-56b9ae55f9a6
+java:S19488"+Make "purchases" transient or serializable.(şóÿõÿÿÿÿÿ8œõ…Ùÿ1J$acf179fc-75e4-4523-bf51-ef1dc5b8178e
+r
+java:S1948<"*Make "products" transient or serializable.(éáş ıÿÿÿÿ8œõ…Ùÿ1J$d5e80f5e-c6ae-45d7-8410-b36cb205cafc
+€
+java:S1117D"8Rename "role" which hides the field declared at line 41.(ôÀ‹Éşÿÿÿÿ8«À†Öÿ1J$45498782-348b-4b48-a16c-3a1c914e4b54

@@ -1,5 +1,16 @@
 
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$f6a28bca-213e-4a13-b92b-ce4bb4425b33
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$85934306-10cc-4dd9-9307-0feb5526ddd2
+Œ
+java:S1128"IRemove this unused import 'com.ecommerce.dto.auth.AuthenticationRequest'.(ëö»À8ã§½‚2J$4a5a757d-e277-40c1-8102-cda9a0571ad3
+
+java:S1128"JRemove this unused import 'com.ecommerce.dto.auth.AuthenticationResponse'.(•ÙÈÎ8‘ã§½‚2J$3bf4ba9f-c69f-434d-9daf-ea34507fcac7
+Œ
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8‘ã§½‚2J$1f3019c6-31d3-43ca-b915-4e51eefc83c8
+˜
+java:S1128
+"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8‘ã§½‚2J$67b8f78f-4784-4614-82fa-7559fedd9f57
+˜
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8‘ã§½‚2J$0ffd6c1b-6378-4df5-bcfe-8450d318f8fa

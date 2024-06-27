@@ -38,15 +38,10 @@ public class UserEntity implements UserDetails {
     @Column(nullable = false)
     private String email;
 
-   @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-   @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"),
-   inverseJoinColumns = @JoinColumn(name = "role_id"))
-   private Set<RoleEntity> role = new HashSet<>();
-
-
-    //own_purchases
-    /*@OneToMany(mappedBy = "user")
-    private List<PurchaseEntity> purchase;*/
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"),
+    inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private Set<RoleEntity> role = new HashSet<>();
 
     // own_cart - one user can have only one cart (wich one can be updated on the db)
     @OneToOne(mappedBy = "cartOwner", cascade = CascadeType.ALL)
@@ -61,7 +56,8 @@ public class UserEntity implements UserDetails {
     private List<PurchaseEntity> purchases;
 
     //published products
-    //private Set<ProductEntity> publ
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<ProductEntity> products;
 
 
     @Override

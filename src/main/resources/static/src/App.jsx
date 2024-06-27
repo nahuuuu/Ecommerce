@@ -52,10 +52,10 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
-        <Route path="/home" element={<PrivateRoute><Home/></PrivateRoute>}/>
+        <Route path="/home" element={<Home/>}/>
         <Route path="/home/sell" element={<PrivateRoute><Sell/></PrivateRoute>}/>
         <Route path="/" element={<Navigate to={"/home"}/>}/>
-        <Route path="/home/cart" element={<PrivateRoute><Cart/></PrivateRoute>}/>
+        <Route path="/home/cart" element={<Cart/>}/>
       </Routes>
     </Router>
   )

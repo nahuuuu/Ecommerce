@@ -1,13 +1,15 @@
 
-
-java:S11928"ODefine a constant instead of duplicating this literal "User with id '" 3 times.(÷ÑÏëşÿÿÿÿJ$cbed0bc0-9276-4b25-9caf-22eb087262a9
-
-java:S11928"LDefine a constant instead of duplicating this literal "' not found" 3 times.(÷ÑÏëşÿÿÿÿJ$7c4a7a6b-cdf2-43ba-94a0-65fb73a1f2da
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$838d43bf-23f7-42ac-b8d6-5e3bc4857678
-~
-java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞJ$7b829e36-83a4-42b3-bb2b-386f88be9e63
-~
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞJ$c556eb85-ddd7-4d1d-a04b-bfa525d3a13a
+—
+java:S1192V"ODefine a constant instead of duplicating this literal "User with id '" 3 times.(÷ÑÏëşÿÿÿÿ8“î—»‚2J$f4b16570-f182-4c68-9aff-caf91e2a84af
+”
+java:S1192V"LDefine a constant instead of duplicating this literal "' not found" 3 times.(÷ÑÏëşÿÿÿÿ8”î—»‚2J$4846e310-48be-4690-ae64-55311bd22401
+…
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8©î—»‚2J$d0e4727e-50f6-42d8-8dbc-d3a2f7a324d7
+…
+java:S6813'"BRemove this field injection and use constructor injection instead.(êæÄŞ8ªî—»‚2J$15f43c48-e26f-4954-8a4e-dd121ab4fea0
+…
+java:S6813*"BRemove this field injection and use constructor injection instead.(êæÄŞ8ªî—»‚2J$4e0a83c8-5a01-4aad-9b65-0f6c5831a273
+…
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄŞ8ªî—»‚2J$8b9af5a4-da38-4b41-af93-c8bd2e2959e8
 ½
-java:S62042"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(æ±Öµ8ˆ¯Ø´û1J$cc9d684b-2077-4f8d-b213-dcc53c6ecc14
+java:S6204P"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(æ±Öµ8²î—»‚2J$1bc9fb67-8176-4338-923b-6d7f9a73a282

@@ -1,13 +1,13 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹£îªýÿÿÿÿ8ÿŸŒ¹ú1J$1990f75e-a43a-40b4-b60b-18774e9dbad9
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹£îªýÿÿÿÿ8ÿŸŒ¹ú1J$a2e83b8e-ac53-4c0b-a11c-e215728c1891
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$f03a217c-97ed-491a-8ca8-77849642d46b
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$4c27427e-cf0f-4d11-b00c-34b7eabb8514
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$bcb75c07-9c8d-4c2f-a57a-bb3b928b4292
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$20518921-7de6-4e2d-9314-2d4e01038481
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$d7b9c3f6-9e99-4ed6-a989-fd87472becfc
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8‹ Œ¹ú1J$d9929240-a3fa-4189-b056-e4fe9081a365
 t
-java:S1172"2Remove this unused method parameter "permissions".(á¸ï(8’ Œ¹ú1J$c5056a0e-7925-4c18-b313-212499574b63
+java:S1172"2Remove this unused method parameter "permissions".(á¸ï(8’ Œ¹ú1J$cec942ab-f720-4e3f-9286-d88e1320af37
 Š
-java:S1612!"BReplace this lambda with method reference 'PermissionEntity::new'.(ÔÔç˜ûÿÿÿÿ8” Œ¹ú1J$f7281613-c6e1-452c-9c95-0aac0e61b1f8
-•	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍå¸þÿÿÿÿ8ž Œ¹ú1J$437300d7-1730-43f5-9003-847bd9290178
+java:S1612!"BReplace this lambda with method reference 'PermissionEntity::new'.(ÔÔç˜ûÿÿÿÿ8” Œ¹ú1J$1d8c0f84-9039-447a-9af8-9c64d6471ffd
+•	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÍå¸þÿÿÿÿ8ž Œ¹ú1J$24c8497b-64ed-4fde-86bf-b676c517d305

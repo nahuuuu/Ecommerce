@@ -37,7 +37,7 @@ public class SecurityBean {
 
     @Bean
     public UserDetailsService userDetailsService(){
-        return username -> userRepository.findByUsername(username)
+        return username -> userRepository.findByEmail(username)
                 .orElseThrow(() -> new RuntimeException("User Not Found"));
     }
 

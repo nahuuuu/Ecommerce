@@ -9,4 +9,6 @@ import java.util.List;
 public interface ProductRepository extends JpaRepository<ProductEntity, Long> {
 
     List<ProductEntity> findByCart(CartEntity cartEntity);
+
+    List<ProductEntity> findByTitleContainingIgnoreCase(String name);
 }

@@ -1,7 +1,33 @@
 
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$53fe876e-7899-433f-9776-02f2c8dbfeeb
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$f0ae9b77-0014-4501-a819-ff63fcdf3dfe
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$6863adb1-ab35-4c9b-80db-9c15a0a37160
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8×ÅÖÂ‚2J$b63d9a75-0fce-4e31-9862-61fcca87e726
+…
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÅÖÂ‚2J$40149930-d1a5-435e-832c-b132291569f2
+…
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÅÖÂ‚2J$151f360b-df17-4eb0-a7d6-fc6695b36b40
+…
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÅÖÂ‚2J$ab697020-383f-4c41-98c1-867576a91b50
+…
+java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÅÖÂ‚2J$d6c58781-c18a-45c3-83f7-0f4d7b95acbe
+m	java:S106F"+Replace this use of System.out by a logger.(ÄÔÔ8¾È×Â‚2J$9ff3fc99-4d1e-44b1-a5bb-2d1a478673ee
+m	java:S106G"+Replace this use of System.out by a logger.(­Æ—¯8¾È×Â‚2J$44f6a884-3d08-421f-a13c-9f927ecdfede
+r	java:S106I"+Replace this use of System.out by a logger.(ÿÇ™áüÿÿÿÿ8©ÚšÄ‚2J$695ed34e-eff2-4d6a-a770-993964b7ea1d
+m	java:S106K"+Replace this use of System.out by a logger.(¶¯Ûê8©ÚšÄ‚2J$3953b073-89e6-4476-90b3-989755cca644
+„
+java:S1128"<Remove this unused import 'com.ecommerce.entity.RoleEntity'.(æˆ‘’ùÿÿÿÿ8”È¡Å‚2J$6cd16172-93fd-484e-8108-34ce0a5cd1a2
+|
+java:S1128"4Remove this unused import 'com.ecommerce.util.Role'.(¸èÑ¶ÿÿÿÿÿ8”È¡Å‚2J$22857486-9201-4b51-a4b3-d71693665fd4
+w
+java:S1128"5Remove this unused import 'org.apache.catalina.User'.(›ân8”È¡Å‚2J$a47daef2-762c-4eff-b388-2a7fc27dbb4f
+j
+java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“8Íó¦Å‚2
+
+java:S1128"VRemove this unused import 'org.springframework.security.core.context.SecurityContext'.(ØıŞşÿÿÿÿ8”È¡Å‚2J$073fb970-5f36-46fc-8d56-d2639a08254a
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8”È¡Å‚2J$1b9a73c1-65f7-4ddb-b180-9349fb87c943
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8•È¡Å‚2J$955200d8-87f4-49c1-a181-fccc224f7543
+w
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8•È¡Å‚2J$e652dd6f-b301-4a1a-9bd4-f05d3d137582
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8•È¡Å‚2J$899248bb-053a-42e5-b17e-66b051b99fa2

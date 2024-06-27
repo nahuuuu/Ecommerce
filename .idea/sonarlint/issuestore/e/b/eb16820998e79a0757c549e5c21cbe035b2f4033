@@ -1,5 +1,10 @@
 
-}
-java:S1118":Add a private constructor to hide the implicit public one.(éÜÁ˜8–²›Œı1J$138d507e-71bd-4de1-a13b-8776a2c8e180
-—
-java:S6204)"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(„××¨8Á“œŒı1
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8´¦‚ùÿ1J$74c0878f-eb56-4e3b-ba4c-9d99fcc8d00c
+½
+java:S62045"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(„××¨8»¦‚ùÿ1J$c085a3f7-5e72-4c1b-a691-320cb0873617
+“
+java:S1128
+"KRemove this unused import 'com.ecommerce.repository.OrderDetailRepository'.(º‡ı‡ÿÿÿÿÿ8ù¡£ğ€2J$94b0c305-26d1-4e91-b3f5-b160434931d4
+
+java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“8ù¡£ğ€2J$15b3fd66-a3b2-4bf3-ae1a-fb80e5909fdc

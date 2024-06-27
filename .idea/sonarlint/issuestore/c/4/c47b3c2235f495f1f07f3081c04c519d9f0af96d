@@ -1,7 +1,7 @@
 
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-e
-java:S1128	"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.(‡¡‰Ø
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$146488b1-1e20-42b3-87c7-061219f62d58
+‹
+java:S1128	"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.(‡¡‰ØJ$1df9a34c-a71d-4329-88f5-866dfe1983a0
+l
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿJ$fc6011fe-9a5c-4ca0-b46c-efe344632d18

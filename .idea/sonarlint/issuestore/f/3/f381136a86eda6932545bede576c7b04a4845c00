@@ -1,0 +1,19 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ßö“Ôþ1J$0eaa8386-72aa-4533-a91f-fc5e32eaf22a
+~	java:S125"<This block of commented-out lines of code should be removed.( š¶†8°òÚÔÿ1J$ebb91a6b-17f1-44e7-94cf-a8022dbac492
+ˆ
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8±òÚÔÿ1J$14e13641-1161-4a34-91e2-ccb6245894e4
+Œ
+java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8±òÚÔÿ1J$0319abe6-d7cd-4bbc-a160-8ec995c74575
+
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8žò¬Çÿ1J$e40ffd1f-b3c6-4c86-ac11-0ba9607712f6
+Ž
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8žò¬Çÿ1J$b6cc958e-52e4-4b2d-a534-8c28014fb42e
+˜
+java:S1128	"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8±òÚÔÿ1J$9f8f2910-186b-4541-8918-e37bf8674fb0
+™
+java:S1128
+"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8²òÚÔÿ1J$aceb68e4-fe98-4966-b369-fea3b55f412b
+”
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœžÿÿÿÿÿ8²òÚÔÿ1J$c84615ab-a8f6-45df-8ce6-39e47ce33866

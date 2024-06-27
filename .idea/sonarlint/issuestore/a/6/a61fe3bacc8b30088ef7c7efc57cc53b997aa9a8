@@ -1,0 +1,14 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8è›³ˆ…2J$b60f3586-8ddd-4659-813f-aed17c77b546
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8è›³ˆ…2J$c591ebc3-99ad-428c-8a25-39ba950ed644
+]	java:S1253"<This block of commented-out lines of code should be removed.(ÍùžÛýÿÿÿÿ8Ãó³ˆ…2
+\
+java:S1128"?Remove this unused import 'com.ecommerce.entity.ProductEntity'.(ÝøÁ8²ÄÕª…2
+‡
+java:S1128"eRemove this unused import 'org.springframework.security.authentication.AnonymousAuthenticationToken'.(¬Ÿ¡¿ûÿÿÿÿ8³ÄÕª…2
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8³ÄÕª…2
+n
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœžÿÿÿÿÿ8´ÄÕª…2

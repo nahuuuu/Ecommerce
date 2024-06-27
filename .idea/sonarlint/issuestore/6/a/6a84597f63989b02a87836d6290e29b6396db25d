@@ -1,13 +1,21 @@
 
 
-java:S4973Q"<Strings and Boxed types should be compared using "equals()".(‘Æ²Œ8ûÏµı1J$fb22c14f-dafc-47d3-9209-fd6ebf720081
+java:S4973q"<Strings and Boxed types should be compared using "equals()".(‘Æ²Œ8À†¥Æ‚2J$f34748a4-e9d1-4626-9e62-039ca4158cf1
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ŒĞµı1J$7e85e1a7-ef9b-4a0e-970f-d63858130292
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ï†¥Æ‚2J$280d9ed4-3562-41d4-a6a0-022ad381e265
 …
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğµı1J$ecf171c0-e7d6-4999-af2c-a9a4574d4572
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$c8d4538c-bf31-44f0-87fc-0ab1dd088833
 …
-java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğµı1J$07a92427-b1b8-4bf3-a92c-94d6266d6d85
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$0a6592dc-8462-43e4-9929-13a9c3bcf126
 …
-java:S6813'"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğµı1J$42373962-6583-4850-93c6-9a693a7471d1
-z
-java:S1135A"2Complete the task associated to this TODO comment.(ÆÜı¯şÿÿÿÿ8•Ğµı1J$9b51b37d-547b-496c-b8fe-0a22c3aa5ad9
+java:S6813("BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$d933cf34-b1c3-4652-87b6-62839cc82425
+…
+java:S6813+"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$e56be4df-fc41-4d90-a72a-b601a43338c8
+…
+java:S6813."BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$9350d9a0-e8af-452d-a3d8-96ca1f42e1d5
+…
+java:S68131"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ğ†¥Æ‚2J$8e69d538-9da1-42bc-a12e-9f671dfa9c42
+[
+java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ß–Ê³8×ËÕª…2
+n
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœÿÿÿÿÿ8ØËÕª…2

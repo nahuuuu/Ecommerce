@@ -16,13 +16,6 @@ public class AuthControllerTest {
     @Autowired
     private AuthenticationService authenticationService;
 
-    @PostMapping("/api/login")
-    public ResponseEntity<AuthenticationResponse> login(@RequestBody AuthenticationRequest authRequest){
-
-        AuthenticationResponse jwt = authenticationService.login(authRequest);
-
-        return ResponseEntity.ok(jwt);
-    }
 
     @Autowired
     private UserRepository userRepository;

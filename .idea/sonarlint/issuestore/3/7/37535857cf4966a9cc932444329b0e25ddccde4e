@@ -1,8 +1,14 @@
 
-‘
-java:S36551"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ééã£ıÿÿÿÿJ$2ab570e6-7b05-4e2e-a442-ea86f04e3d4a
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$cb910c31-8b42-4505-9cd4-b1319d99dd6c
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$a005b72c-fc15-4301-9e6e-37fd6055a76a
-k	java:S106:"+Replace this use of System.out by a logger.(ëìõßüÿÿÿÿJ$2fea19b1-f6c2-428f-835d-17899f0c5982
+˜
+java:S3655<"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÀıÉíùÿÿÿÿ8ØšŸÀ‚2J$3339ae2c-dbaf-4bf8-82b9-9c992372cd8e
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ŒË™˜‚2J$29fb286e-17a7-4379-81d2-65f8f09dd7a2
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ŒË™˜‚2J$ba894322-d374-47b2-9f72-0f939d6fd2f9
+}	java:S125,"<This block of commented-out lines of code should be removed.(¸ŒÕC8–Ë™˜‚2J$a34e5537-3a0b-415a-8950-77969c64984c
+r	java:S106F"+Replace this use of System.out by a logger.(ëìõßüÿÿÿÿ8 Ë™˜‚2J$3e0df769-3466-4266-8782-4bddbbf4d0f7
+m	java:S106O"+Replace this use of System.out by a logger.(´×ÚÔ8è¨Ç˜‚2J$8c45f343-1b5c-4ab3-a757-f5780d153aeb
+r	java:S106R"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ8ÍèÉ˜‚2J$0997d6b7-9674-4061-8a04-b951a0ed8112
+m	java:S106X"+Replace this use of System.out by a logger.(¦ü˜ç8«ùÊ˜‚2J$62a7d031-d699-4166-9aa3-fae386e9ba47
+
+java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“8èšŸÀ‚2J$ec9cb964-e5f7-4083-8b4b-771c68d30ddd

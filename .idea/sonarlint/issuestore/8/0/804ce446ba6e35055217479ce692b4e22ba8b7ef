@@ -1,12 +1,19 @@
 
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÿç°ûÿÿÿÿ8Âÿı¸ú1J$fb7e3f77-5a37-4991-82c5-0a505171a258
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÿç°ûÿÿÿÿ8¯Ñ ˆ…2J$8c9ec9cd-0cb5-4e34-a37a-cff5bd4860e6
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Òÿı¸ú1J$9ea54e2d-d11a-4771-a572-7e92b66c3e0e
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÑ ˆ…2J$ff142499-ecb6-4eba-ac81-b7021ad2af5a
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Óÿı¸ú1J$280768f6-7c56-43d6-84d5-03d66bf4ee2e
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ØÑ ˆ…2J$2fbd64c7-9e9c-408a-8f89-7298bc20b5f1
 
-java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(Á®†‹8Öÿı¸ú1J$df9026e9-e01f-49ca-ac87-742a9bbca70d
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(Á®†‹8ßÑ ˆ…2J$c4e7185b-e1f4-4fcc-ada6-9a3774a28ffc
 ¢
-java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(¸ñÓèüÿÿÿÿ8×ÿı¸ú1J$aa39428a-697b-4616-b87f-d783f2d1995b
+java:S3305"ZInject this field value directly into "securityFilterChain", the only method that uses it.(¸ñÓèüÿÿÿÿ8âÑ ˆ…2J$f8fda6ef-79f6-444e-a495-f930f78a9f62
 ~
-java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8êÿı¸ú1J$d00cd40f-16ce-4222-9375-58b3d548d67c
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ßÙ£ˆ…2J$d5792478-7445-45cc-9cd7-f014be01fa03
+­
+java:S1128
+"eRemove this unused import 'org.springframework.security.authentication.AnonymousAuthenticationToken'.(¬Ÿ¡¿ûÿÿÿÿ8ßÙ£ˆ…2J$5ffa2dd3-26be-4f45-920b-600bbfcebb9e
+¥
+java:S1128"]Remove this unused import 'org.springframework.security.authorization.AuthorizationDecision'.(£€ıéıÿÿÿÿ8ßÙ£ˆ…2J$0af2cbc9-34e4-4462-94e3-ee24d5039c27
+m
+java:S1128"KRemove this unused import 'org.springframework.security.config.Customizer'.(Ïóœ¬ùÿÿÿÿ8øÜñÒ…2

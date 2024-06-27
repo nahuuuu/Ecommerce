@@ -1,12 +1,16 @@
 package com.ecommerce.config;
 
 import com.ecommerce.config.filter.JwtAuthenticationFilter;
+import com.ecommerce.util.Role;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authorization.AuthorizationDecision;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -30,26 +34,41 @@ public class webConfig {
                  .authenticationProvider(authenticationProvider)
                  .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
                 .authorizeHttpRequests(authConfig -> {
-                    authConfig.requestMatchers(HttpMethod.POST, "/post").permitAll();
-                    authConfig.requestMatchers(HttpMethod.GET, "/get").permitAll();
-                    authConfig.requestMatchers(HttpMethod.GET, "/a").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/test-r-p").permitAll();
-                    authConfig.requestMatchers(HttpMethod.GET, "/p-get").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/crear-usuario").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/api/login").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/promote-user").permitAll();
-                    //products
-                    authConfig.requestMatchers(HttpMethod.GET, "/api/get-products").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/api/post-products").permitAll();
-                    authConfig.requestMatchers(HttpMethod.POST, "/api/post-one-products").permitAll();
+                    //AUTH
+                    // Login
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/auth/login").anonymous();
+                    // Register
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/auth/register").anonymous();
                     //validate Token
                     authConfig.requestMatchers(HttpMethod.POST, "/api/check-token").authenticated();
-                    authConfig.requestMatchers(HttpMethod.GET, "/test").permitAll();
 
+                    //ENTITIES
+                    //products
+                    authConfig.requestMatchers(HttpMethod.GET, "/api/product/get-all").permitAll();
+                    authConfig.requestMatchers(HttpMethod.POST, "/api/product/upload").hasRole(Role.USER.toString());
+                    authConfig.requestMatchers(HttpMethod.PUT,"/api/product/change").authenticated();
+                    authConfig.requestMatchers(HttpMethod.DELETE, "/api/product/delete{id}").authenticated();
+                    authConfig.requestMatchers(HttpMethod.GET, "api/product/search").permitAll();
+
+                    //TEST
+                    authConfig.requestMatchers(HttpMethod.POST, "/test").permitAll();
+                    authConfig.requestMatchers(HttpMethod.GET, "/test-2").permitAll();
+                    authConfig.requestMatchers(HttpMethod.GET,"/secret").authenticated();
                     //controlador carrito test
                     authConfig.requestMatchers(HttpMethod.GET, "api/cart/get").permitAll();
                     authConfig.requestMatchers(HttpMethod.POST, "api/cart/post").permitAll();
-                });
+
+                    //upload imageTest
+                    authConfig.requestMatchers(HttpMethod.POST, "/upload-picture").permitAll();
+
+
+
+                })
+                 //.oauth2Login(Customizer.withDefaults())
+                 .anonymous(config -> config
+
+                         .principal("guest")
+                         .authorities("ROLE_GUEST"));
 
          return http.build();
 

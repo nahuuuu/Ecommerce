@@ -2,6 +2,8 @@ package com.ecommerce.service.impl;
 
 
 import com.ecommerce.dto.UserDTO;
+import com.ecommerce.dto.auth.RegisterRequest;
+import com.ecommerce.entity.RoleEntity;
 import com.ecommerce.mapper.Mappers;
 import com.ecommerce.dto.Pagination;
 import com.ecommerce.dto.UserUpdateRequest;
@@ -11,8 +13,10 @@ import com.ecommerce.entity.UserEntity;
 import com.ecommerce.exception.ResourceNotFoundException;
 import com.ecommerce.repository.OrderDetailRepository;
 import com.ecommerce.repository.PurchaseRepository;
+import com.ecommerce.repository.RoleRepository;
 import com.ecommerce.repository.UserRepository;
 import com.ecommerce.service.interfaces.IUserService;
+import com.ecommerce.util.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -20,7 +24,10 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
@@ -34,6 +41,29 @@ public class UserServiceImpl implements IUserService {
 
     @Autowired
     private OrderDetailRepository orderDetailRepository;
+
+    @Autowired
+    private RoleRepository roleRepository;
+
+    @Override
+    public String createUser(RegisterRequest request){
+        Optional<UserEntity> findByEmail = userRepository.findByEmail(request.email());
+
+        Set<RoleEntity> roles = new HashSet<>();
+        roles.add(roleRepository.findByrole(Role.USER));
+
+        if (findByEmail.isEmpty()) {
+            UserEntity user = UserEntity.builder()
+                    .username(request.username())
+                    .email(request.email())
+                    .password(request.password())
+                    .role(roles)
+                    .build();
+            userRepository.save(user);
+            return user.getEmail();
+
+        }else {throw new IllegalArgumentException("The email already exist in the database");}
+    }
 
     @Override
     public List<UserDTO> getAllUsers(Pagination pagination){

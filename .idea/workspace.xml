@@ -6,17 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f7c3467c-a691-40cc-a9bb-e0e79b9b4dea" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/AuthenticationController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/CartController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/FavoriteProductsController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/OrderDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/BORRAR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/UploadImage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/CartDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/OrderDetailRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/ProductRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/ProductRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/RegisterRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/FavoriteProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ImageEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/exception/ResourceNotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/mapper/Mappers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/repository/CartRepository.java" afterDir="false" />
@@ -30,7 +33,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IProductService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IPurchaseService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/interfaces/ImageService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/util/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/src/components/home/images.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/ecommerce/service/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -46,11 +51,13 @@
       <change beforePath="$PROJECT_DIR$/postman/TEST/products/upload-one-product.bru" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/postman/a.bru" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/postman/bruno.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/bean/SecurityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/bean/SecurityBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/filter/JwtAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/config/webConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/AuthControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/test/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/dto/auth/AuthenticationRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/CartEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/PermissionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/PermissionEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/entity/ProductEntity.java" afterDir="false" />
@@ -61,15 +68,21 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/auth/JwtService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/service/Test/MapeoEntidadesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/bean/SecurityBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/bean/SecurityBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/filter/JwtAuthenticationFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/config/webConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/AuthControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/controller/test/ProductControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/auth/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/dto/auth/AuthenticationRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/PermissionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/PermissionEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/ProductEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/RoleEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity$UserEntityBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/ProductRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/AuthenticationService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/service/Test/JwtService.class" beforeDir="false" />
@@ -84,8 +97,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -133,6 +146,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nahue\Desktop\proyecto e\backend deveritas\src\main\java\com\ecommerce\dto" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ecommerce.controller" />
     </key>
   </component>
   <component name="RunManager">

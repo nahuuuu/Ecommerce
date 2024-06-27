@@ -4,8 +4,20 @@ meta {
   seq: 4
 }
 
-post {
-  url: http://localhost:8080/api/check-token
-  body: none
+get {
+  url: http://localhost:8080/test
+  body: json
   auth: none
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYXVAZ21haWwuY29tIiwiaWF0IjoxNzE4NjU4MzY4LCJleHAiOjE3MTg2NjAxNjh9.ewrCqLJEB5JDQD207Ubjje6SamGtKc1jJX5_t8Sc9AA
+}
+
+body:json {
+  {
+    "email":"nau@gmail.com",
+    "password":12345678910
+    
+  }
 }

@@ -4,8 +4,15 @@ meta {
   seq: 3
 }
 
-get {
-  url: 
-  body: none
+post {
+  url: http://localhost:8080/test
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "email":"nau@gmail.com",
+    "password":12345678910
+  }
 }

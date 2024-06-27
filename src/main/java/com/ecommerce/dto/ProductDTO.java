@@ -8,6 +8,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -37,5 +39,7 @@ public class ProductDTO {
     Integer stock;
     @NotNull
     Boolean inCart;
+
+    List<String> image;
 
 }
